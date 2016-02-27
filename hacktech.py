@@ -64,6 +64,6 @@ output_file=open('hackTechTweetPHP.php', 'w')
 #Format of PHP output
 #$result=mysqli_query($con, "INSERT INTO ttrain VALUES ('aaa','-2.232','222.4234')" );
 for k,v in prob.items():
-    str="$result=mysqli_query($con, \"INSERT INTO ttrain VALUES (\'"+str(k)+"\',\'"+float(v[0])+"\',\'"+float(v[1])+"\')\" );\n" 
-    output_file.write(str)
+    strop="$result=mysqli_query($con, \"INSERT INTO ttrain VALUES (\'"+str(k)+"\',\'"+str(v[0])+"\',\'"+str(v[1])+"\')\" );\n" 
+    output_file.write(strop)
 output_file.close()
