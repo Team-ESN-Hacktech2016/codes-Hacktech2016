@@ -1,0 +1,63 @@
+#logo .register{
+	padding: 5px;
+	position: absolute;
+	margin-left:680px;
+}
+#logo .register .welcome{
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+#logo .register a{
+	border-bottom: none;
+}
+
+.filter li table{
+	margin-left:-18px;
+}
+
+button.reset{
+	-webkit-border-radius: 10;
+	-moz-border-radius: 10;
+	border-radius: 10px;
+}
+button.resetall{
+	-webkit-border-radius: 10;
+	-moz-border-radius: 10;
+	border-radius: 10px;
+}
+
+.boxlist 
+{
+	margin-bottom: 20px;
+	display: block;
+	box-shadow: 1px 3px 5px  #888888;
+	padding-left: 10px;
+	height:150px;
+}
+.ngo_list{
+	float:left;
+	width:800px;
+}
+.ngo_approval
+{
+  background-image: -webkit-linear-gradient(top, #890606, #bd0505);
+  background-image: -moz-linear-gradient(top, #890606,  #bd0505);
+  background-image: -ms-linear-gradient(top, #890606,  #bd0505);
+  background-image: -o-linear-gradient(top, #890606,  #bd0505);
+  background-image: linear-gradient(to bottom, #890606,  #bd0505);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px; 
+  padding: 5px 10px 5px 10px;
+}
+
+.ngo_approval:hover {
+  background-image: -webkit-linear-gradient(top, #e83c3c, #d34545);
+  background-image: -moz-linear-gradient(top, #e83c3c, #d34545);
+  background-image: -ms-linear-gradient(top, #e83c3c, #d34545);
+  background-image: -o-linear-gradient(top, #e83c3c, #d34545);
+  background-image: linear-gradient(to bottom, #e83c3c, #d34545);
+}
