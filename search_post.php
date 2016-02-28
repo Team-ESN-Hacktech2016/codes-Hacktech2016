@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_REQUEST['tag']))
 	{
 		
 $url = 'https://api.twitter.com/1.1/search/tweets.json';
-$getfield = '?lang=en&result_type=recent&count=20&q=';
+$getfield = '?lang=en&result_type=recent&count=30&q=';
 $requestMethod = 'GET';
 $twitter = new TwitterAPIExchange($settings);
 
